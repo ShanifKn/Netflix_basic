@@ -2,10 +2,9 @@
   margin-left: 20px;
   color: white;
 }
-
 .posters {
   display: flex;
-  padding: 20px;
+  padding: 15px;
   overflow-x: scroll;
   overflow-y: hidden;
 }
@@ -13,6 +12,18 @@
   display: none;
 }
 .poster {
+  cursor: pointer;
   max-height: 250px;
   margin-right: 10px;
+}
+.smallPoster {
+  cursor: pointer;
+  max-height: 190px;
+  margin-right: 10px;
+}
+.poster:hover {
+  transform: scale(1.2);
+}
+.smallPoster:hover {
+  transform: scale(1.1);
 }
